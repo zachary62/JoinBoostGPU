@@ -1,3 +1,5 @@
+import cudf
+
 class node:
     def __init__(self, fact, dim_df, dim_key, dim_feature):
         self.fact = fact
